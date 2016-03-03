@@ -2,4 +2,4 @@ rootProject.name = 'HelloMidiDriver'
 
 include ':app'
 include ':react-native-mididriver'
-project(':react-native-mididriver').projectDir = new File(rootProject.projectDir, '../../../android')
+project(':react-native-mididriver').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-mididriver/android')
