@@ -1,2 +1,6 @@
-var { NativeModules } = require('react-native');
-module.exports = NativeModules.MidiDriverModule;
+
+import { NativeModules } from 'react-native';
+
+const { RNMidiDriver } = NativeModules;
+
+export default RNMidiDriver;
